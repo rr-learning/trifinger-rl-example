@@ -1,0 +1,6 @@
+[trifinger_rl_experiment]
+task = "push"  # "push" or "lift"
+
+# Specify a policy for each task.
+push_policy = "trifinger_rl_example.example.TorchPushPolicy"
+lift_policy = "trifinger_rl_example.example.TorchLiftPolicy"
