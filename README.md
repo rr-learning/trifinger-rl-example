@@ -16,7 +16,7 @@ For the push task:
 
 For the lift task:
 
-    $ python3 -m trifinger_rl_datasets.evaluate_sim pre_stage lift trifinger_rl_example.example.TorchLiftPolicy --n-episodes=3 -v
+    $ python3 -m trifinger_rl_datasets.evaluate_sim lift trifinger_rl_example.example.TorchLiftPolicy --n-episodes=3 -v
 
 The policy classes are implemented in `trifinger_rl_example/example.py`.  The corresponding torch
 models are in `trifinger_rl_example/policies` and are installed as package_data so they can be loaded
