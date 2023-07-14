@@ -22,6 +22,8 @@ The policy classes are implemented in `trifinger_rl_example/example.py`.  The co
 models are in `trifinger_rl_example/policies` and are installed as package_data so they can be loaded
 at runtime (see `setup.cfg`).
 
+All training checkpoints of the expert policies are available [here](https://edmond.mpdl.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.JA8ZW4). They can be
+used with this repository by swapping them with the files in the `policies` subdirectory.
 
 Documentation
 -------------
