@@ -5,6 +5,15 @@ This is an example package that provides expert reinforcement learning policies 
 You can use it as base for your own package when submitting to the robot cluster. The [documentation](https://webdav.tuebingen.mpg.de/trifinger-rl/docs/) for the 
 TriFinger RL Datasets provides more information on how to get an account for and submit to the robot cluster.
 
+## Installation
+
+To install the package run with python 3.8 in the root directory of the repository (we recommend doing this in a virtual environment):
+
+```bash
+pip install --upgrade pip  # make sure the most recent version of pip is installed
+pip install .
+```
+
 Example Policies
 ----------------
 
